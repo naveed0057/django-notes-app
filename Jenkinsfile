@@ -3,14 +3,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
-            steps{
-                script{
-                    hello()
-                }
-            }
-            
-        }
         stage('Code') {
             steps {
                 echo 'This is clonning code'
